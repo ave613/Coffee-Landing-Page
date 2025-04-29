@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayMyoFresh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header id="header">
+    <nav id="nav-bar">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO6TnsxxJaNaFIWeuquVOP0xvCAUOaTI04qA&usqp=CAU" id="header-img">
+        </div>
+        <button class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="links" id="navLinks">
+            <a href="#video" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#product" class="nav-link">Products</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+   </header>
+   
+   <!-- Hero Section  -->
+   <section class="hero">
+      <video autoplay muted loop class="hero-bg">
+         <source src="media/promo_video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-content">
+         <h1>Premium Myanmar Coffee</h1>
+         <p>Experience the authentic taste of Pyin Oo Lwin's finest Arabica blend</p>
+         <a href="#product" class="cta-button">Explore Our Products</a>
+      </div>
+   </section>
+
+   <!-- About Us Section -->
+   <section class="about" id="about">
+      <div class="about-content">
+         <div class="about-text">
+            <h2>About MayMyo Fresh</h2>
+            <p>Founded in the heart of Pyin Oo Lwin, MayMyo Fresh has been cultivating and crafting premium Arabica coffee since 2016. Our commitment to quality begins at our local farms, where coffee cherries are carefully handpicked at peak ripeness.</p>
+            <p>We take pride in supporting local farmers while maintaining the highest standards of coffee production. Our state-of-the-art processing facility ensures that every batch meets international quality benchmarks.</p>
+         </div>
+         <div class="about-image">
+            <img src="media/about.jpg" alt="Coffee Farm in Pyin Oo Lwin">
+         </div>
+      </div>
+   </section>
+
+   <!--Product Section-->
+   <section class="product" id="product">
+    <h1>Our Products</h1>
+    <div class="row">
+        <div class="item">
+            <h3>Green Version</h3>
+            <img src="https://www.yoeyer.com/cdn/shop/files/cmhl_1000000316452_1_hero.jpg?v=1694969013" alt="Green Version">
+            <p>Roasted Arabica 3 in 1 Coffee</p>
+            <p>Available in 500g packs (20 sachets).</p>
+        </div>
+        <div class="item">
+            <h3>Brown Version</h3>
+            <img src="media/brown-ver.jpg" alt="Brown Version">            
+            <p>Richer Taste and Aroma </p>
+            <p>Available in 500g packs (20 sachets).</p>
+        </div>
+        <div class="item">
+            <h3>Classic Plus</h3>
+            <img src="https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h83/hb4/9009145413662/cmhl_1000000331940_1_hero.jpg_Default-WorkingFormat_1000Wx1000H" alt="">
+            <p>3 in 1 Premix With Less Sugar</p>
+            <p>Available in 260g packs (10 sachets).</p>
+        </div>
+        <div class="item">
+         <h3>Pure Coffee Powder</h3>
+         <img src="media/pure.png" alt="Pure Coffee Powder">
+         <p>100% pure Arabica coffee</p>
+         <p>Available in 200g packs</p>
+       </div>
+       <div class="item">
+         <h3>Tea Mix</h3>
+         <img src="media/tea.jpg" alt="Pure Coffee Powder">
+         <p>Burmese Milk Tea Original Flavour</p>
+         <p>Available in 260g packs (10 sachets)</p>
+       </div>
+    </div>
+   </section>
+   <!-- Feature Section -->
+   <section class="features">
+      <h2>Why Choose MayMyo Fresh?</h2>
+      <div class="features-grid">
+         <div class="feature-item">
+            <i class="fa-solid fa-leaf"></i>
+            <h3>100% Arabica</h3>
+            <p>Premium quality beans from local farms</p>
+         </div>
+         <div class="feature-item">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h3>Perfect Blend</h3>
+            <p>Expertly roasted for rich flavor</p>
+         </div>
+         <div class="feature-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Nationwide shipping available</p>
+         </div>
+         <div class="feature-item">
+            <i class="fa-solid fa-award"></i>
+            <h3>Quality Assured</h3>
+            <p>ISO certified production</p>
+         </div>
+      </div>
+   </section>
+   <!-- Testimonial section -->
+   <section class="testimonials" id="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials-grid">
+         <div class="testimonial-card">
+            <img src="media/customer1.jpg" alt="Customer">
+            <p>"The best coffee I've ever tasted. Rich aroma and perfect blend!"</p>
+            <h4>Ma Aye</h4>
+            <span>Regular Customer</span>
+         </div>
+         <div class="testimonial-card">
+            <img src="media/customer2.jpg" alt="Customer">
+            <p>"Love the Classic Plus version. Perfect for my morning routine."</p>
+            <h4>Ko Aung</h4>
+            <span>Coffee Enthusiast</span>
+         </div>
+      </div>
+   </section>
+   <!-- Newsletter section -->
+   <section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for exclusive offers and coffee tips</p>
+        <form class="newsletter-form">
+           <input type="email" placeholder="Your email address" required>
+           <button type="submit">Subscribe</button>
+        </form>
+     </div>
+   </section>
+   <!-- FAQ section-->
+   <section class="faq" id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+         <div class="faq-item">
+            <div class="faq-question">
+                <h3>How should I store my coffee?</h3>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Store in a cool, dry place away from direct sunlight. Keep the package sealed to maintain freshness.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Do you offer international shipping?</h3>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Currently, we ship within Myanmar only. International shipping coming soon!</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>What's special about Pyin Oo Lwin coffee?</h3>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Our coffee is grown in the perfect climate of Pyin Oo Lwin, known for its ideal conditions for Arabica cultivation.</p>
+            </div>
+        </div>
+      </div>
+   </section>
+   <!-- Blog section -->
+   <section class="blog" id="blog">
+      <h2>Coffee Blog</h2>
+      <div class="blog-grid">
+         <article class="blog-card">
+             <img src="media/blog1.jpg" alt="Coffee Brewing">
+             <h3>Perfect Coffee Brewing Guide</h3>
+             <p>Learn the art of brewing the perfect cup of MayMyo Fresh coffee...</p>
+             <button class="read-more-btn" onclick="window.location.href='blog/brewing-guide.html'">Read More</button>
+         </article>
+         <article class="blog-card">
+             <img src="media/blog2.jpg" alt="Coffee History">
+             <h3>History of Pyin Oo Lwin Coffee</h3>
+             <p>Discover the rich heritage of coffee cultivation in Pyin Oo Lwin...</p>
+             <button class="read-more-btn" onclick="window.location.href='blog/coffee-history.html'">Read More</button>
+         </article>
+      </div>
+   </section>
+   <!--Contact Section-->
+   <section class="contact" id="contact">
+     <div class="contact-row">
+        <div class="contact-item">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.6821753464055!2d96.46720340018153!3d22.032450283933954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cc9f0bfa89bf93%3A0x123c340a37578982!2sMaymyo%20Fresh%20COFFEE!5e0!3m2!1sen!2smm!4v1699973407343!5m2!1sen!2smm"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-item">
+            <h2>Visit Us At</h2>
+            <p><i class="fa-solid fa-location-dot"></i>No.133(A) Shwe Bon Thar St, Qtr.3, Pyin Oo Lwin</p>
+            <p><i class="fa-solid fa-phone"></i>09-5157860, 09-259602564</p>
+            <img src="media/location.png" alt="MayMyoFresh Showroom">        
+        </div>
+     </div>
+   </section>
+
+   <!--Footer Start-->
+   <div class="mb"></div>
+       <footer>
+        <div>
+            <h3>"Our Town, Our Product, Our Pride"</h3>
+            <h2>MAYMYO FRESH</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-viber"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <p>Copyright&copy; 2023 MayMyoFresh Co.Ltd</p>
+        </div>
+    </footer>
+    <button id="backToTop" title="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
